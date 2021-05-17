@@ -1,0 +1,237 @@
+body{
+    font-family: calibri;
+}
+.iback{
+    position: fixed;
+    top:0;
+    height:100%;
+    width:100%;
+    left:0;
+}
+.info{
+    position: absolute;
+    width:100%;
+    height:auto;
+    left:0;
+    top:30vh;
+    text-align: center;
+    color:white;
+}
+.myhr{
+    width:60px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+}
+.btn1{
+	width:300px;
+    height:70px;
+    background-color:slateblue; 
+    margin-top:10vh;
+    margin-bottom:10vh;
+    border-style:none;
+    font-size:18px;
+    color:white;
+    border-radius:50px;
+    transition:0.5s;
+}
+.btn1:hover{background-color:gray;}
+.bg1{
+	position:fixed;
+	top:0;
+	z-index:-1;
+	background:linear-gradient(to right,#4a03b0,#40bffe);
+    height:100%;
+    width:100%;
+	left:0;
+}
+.regForm{
+	background:white;
+    font-size:18px;
+	margin-top:15vh;
+	border-radius:15px;
+    text-align: center;
+	padding:50px 50px;
+}
+.conForm{
+	background:white;
+    font-size:18px;
+	margin-top:15vh;
+	border-radius:15px;
+    text-align: center;
+	padding:50px 50px;
+}
+.reg_btn{
+	width:200px;
+    height:60px;
+    background-color:deepskyblue; 
+    border-style:none;
+    font-size:18px;
+    color:white;
+    border-radius:50px;
+    transition:0.5s;
+}
+.reg_btn:hover{background-color:gray;}
+.clr_btn{
+	width:150px;
+    height:60px;
+    background-color:white; 
+    border-style:none;
+    font-size:18px;
+    color:black;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius:50px;
+    transition:0.5s;
+}
+.clr_btn:hover{background-color:gray;color:white;}
+.utab{
+	margin-top:15vh;
+	padding:30px 30px;
+	background:white;
+	border-radius:15px;
+	border-style:none;
+}
+.bg1{
+	position:fixed;
+	top:0;
+	left:0;
+    z-index: -1;
+    height:100%;
+    width:100%;
+}
+.bg2{
+	position:fixed;
+	top:0;
+	background:linear-gradient(to right,#465eff,#42bfff);
+    height:100%;
+    width:100%;
+	left:0;
+}
+.uidiv{
+    height:300px;
+    width:300px;
+    font-size: 18px;
+    padding: 10px 10px;
+    background: white;
+    margin-top:10vh;
+    text-align: center;
+    border-radius: 10px;
+}
+.pdiv{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10vh;
+}
+.rw{
+    background-color:white;
+    margin-top:5vh;
+    border-radius: 10px;
+    padding:30px 30px;
+}
+.img1{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    overflow: hidden;
+    border-color:lightgray;
+}
+.insert_div{
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+.insert_btn{
+	width:200px;
+    height:70px;
+    background-color:slateblue;
+    color:white;
+    border-style: solid;
+    border-color:slateblue; 
+    border-width: 2px;
+    font-size:18px;
+    border-radius:50px;
+    transition:0.5s;
+}
+.insert_btn:hover{color:black;background-color:white;}
+.del_btn{
+	width:200px;
+    height:70px;
+    background-color: white;
+    border-style: solid;
+    border-color:crimson; 
+    border-width: 2px;
+    font-size:18px;
+    color:black;
+    border-radius:50px;
+    transition:0.5s;
+}
+.del_btn:hover{background-color:crimson;color:white;}
+.del_form{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 18px;
+}
+.updiv{
+    background: white;
+    margin-top:18vh;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: slateblue;
+    border-width:1px;
+	font-size:18px;
+    text-align: center;
+    padding:30px 30px;
+}
+.up_btn{
+	width:200px;
+    height:70px;
+    font-size:18px;
+    background-color: white;
+    border-style: solid;
+    border-color:orange; 
+    border-width: 2px;
+    font-size:18px;
+    color:black;
+    border-radius:50px;
+    transition:0.5s;
+}
+.up_btn:hover{background-color:orange;color:white;}
+.uiddiv{
+    background-color: white;
+    margin-top: 20vh;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 40px;
+}
+.uidimg{
+    border-style:double;
+    border-radius: 5px;
+    border-color:gray;
+    border-width: 5px;
+    margin-top: -10vh;
+}
+.proForm{
+	background:white;
+    font-size:18px;
+	border-radius:15px;
+    text-align: center;
+	padding:50px 50px;
+}
+.bill_btn{
+	width:200px;
+    height:70px;
+    font-size:18px;
+    background-color: white;
+    border-style: solid;
+    border-color:orange; 
+    border-width: 2px;
+    font-size:18px;
+    color:black;
+    border-radius:50px;
+    transition:0.5s;
+}
+.bill_btn:hover{background-color:orange;color:white;}
